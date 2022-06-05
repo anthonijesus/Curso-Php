@@ -1,0 +1,23 @@
+*{
+    color: blue;
+}
+
+h2{
+    color: brown;
+}
+
+td {
+    color: black;
+}
+.anthoni{
+    background-color: rgb(157, 190, 179);
+    color: rgb(17, 15, 12);
+}
+
+.tamañofuente{
+    font-size: 40px;
+}
+
+    @media screen and (max-width: 500px) {
+        h2{color: aqua;}
+        }
