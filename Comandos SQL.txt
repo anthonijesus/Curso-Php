@@ -1,0 +1,24 @@
+-- crear base de datos
+CREATE DATABASE curso_2140;
+-- me muevo a la base de datos curso_2140
+
+-- Usar o elegir esta base de datos
+USE curso_2140;
+
+-- listo las bases de datos
+SHOW DATABASES;
+
+-- Crear tabla en la base de datos
+CREATE TABLE xxxx;
+
+-- listo las tablas de la base datos
+SHOW tables;
+
+-- Ver los datos dentro de la tabla
+SELECT * FROM nombreDeLaTabla;
+
+-- Filtrar datos dentro de la tabla. En este caso se debe colocar en el comando WHERE lo que se desea filtrar y haciendo uso del "*" estariamos llamando todos los datos generales de la tabla, al contrario tambin podemos colocar directamente los atributos que queremos llamar.
+SELECT * FROM nombreDeLaTabla
+	WHERE nombres = "Pedro"
+SELECT nombres,apellidos,CI FROM nombreDeLaTabla
+	WHERE nombres = "Pedro"

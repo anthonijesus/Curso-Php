@@ -4329,11 +4329,11 @@ nav .sidenav-trigger i {
 }
 
 nav .brand-logo {
-  position: absolute;
-  color: #fff;
-  display: inline-block;
+  position: relative;
+  color: #212121;
+  display: display-inside;
   font-size: 2.1rem;
-  padding: 0;
+  padding: 5;
 }
 
 nav .brand-logo.center {
@@ -5546,7 +5546,7 @@ button.btn-floating {
   background-color: #fff;
   margin: 0;
   display: none;
-  min-width: 100px;
+  min-width: 150px;
   overflow-y: auto;
   opacity: 0;
   position: absolute;
