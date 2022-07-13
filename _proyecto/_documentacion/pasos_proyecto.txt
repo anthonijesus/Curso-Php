@@ -1,0 +1,27 @@
+A) Vamos a definir el proyecto en 2 partes funcionales
+A.1) Back-end (es toda la parte de gestion y automatizacion)
+A.2) Front-end (es la web abierta al publico en gral)
+-----------------------------------------------------------
+B) Documentacion del proyecto
+B.1) Diagramas (mer, normalizacion, diagramas, flujos, diagramas secuenciales)
+B.2) Readme.txt (descripcion gral del proyecto)
+B.2.1) Titulo 
+B.2.2) Autores
+B.2.3) en que esta hecho
+B.2.3.1) tecnologias que se desarrollo y tecnologias probadas
+B.2.4) Alcance
+B.2.5) Fecha de inicio del proyecto
+B.2.6) Fecha de ultima actualizacion
+
+C) Manuales de usuarios
+----------------------------------------------------------
+Back-end
+1). Crear un archivo index.php y hacer los echos correspondientes
+2). Creamos la carpeta modelos (Esta carpeta vamos a guardar los modelos a utilizar)
+3). Creamos la carpeta configuracion (esta carpeta guardamos las configuraciones)
+4). Creamos una carpeta vista (esta carpeta guarda toda la parte visual del proyecto)
+5). Creamos una carpeta archivos (Donde guardamos dcouemtos externos)
+6). creamos una carpeta webservices (donde vamos a guardar la logica ws)
+7). creamos la carpeta consola (guardamos todos los scrips disparados de terminal)
+8). creamos la carpeta router.php (este va manejar las rutas del proyecto)
+9). creamos la carpeta web (esta guardamos los archivos ccs y js del proyecto)

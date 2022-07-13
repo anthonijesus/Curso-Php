@@ -18,7 +18,7 @@
     $objConexion = new PDO("mysql:localhost=".$host.";dbname=".$dbName."",$user,$password,$options);
 
     $sql = "SELECT * FROM profesores";
-
+    echo "<hr>";
     $preparo = $objConexion->prepare($sql);
     $preparo->execute(array());
 
